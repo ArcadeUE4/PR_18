@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="PR_18.MainPage">
+
+    <StackLayout>
+        <Button Text="Нажать на кнопку" HorizontalOptions="Center" Command="{Binding LoadDataCommand}"/>
+        <Label FontSize ="Medium" Text="Факт"/>
+        <Label FontSize="Medium" Text="{Binding Text}"/>
+        <Label FontSize ="Medium" Text="Точность факта"/>
+        <Label FontSize="Medium" Text="{Binding Found}"/>
+        <Label FontSize ="Medium" Text="Число"/>
+        <Label FontSize="Medium" Text="{Binding Number}"/>
+        <Label FontSize ="Medium" Text="Тип"/>
+        <Label FontSize="Medium" Text="{Binding Type}"/>
+        <Label FontSize ="Medium" Text="Дата"/>
+        <Label FontSize="Medium" Text="{Binding Date}"/>
+    </StackLayout>
+
+</ContentPage>
